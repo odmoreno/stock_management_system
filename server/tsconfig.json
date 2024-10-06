@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "lib": ["esnext"],
+        "target": "ESNext", // que version quiere compilar
+        "moduleResolution": "NodeNext", //  informacion para el soport de typescript de que version se desea compilar
+        "module": "NodeNext", // informacion para el soport de typescript de que version se desea compilar
+        "strict": false,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "experimentalDecorators": true, //para que admita decoradores
+        "emitDecoratorMetadata": true // Para decoradores
+    },
+    "include": ["src/**/*.ts"],
+}
