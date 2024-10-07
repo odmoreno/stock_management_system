@@ -1,6 +1,6 @@
 # Stock Management System
 
-El Stock Management System es una solución fullstack diseñada para administrar el inventario de productos de pequeñas y medianas empresas. Está compuesto por dos componentes principales:
+El Stock Management System es un PERN Stack diseñada para administrar el inventario de productos de pequeñas y medianas empresas. Está compuesto por dos componentes principales:
 
 - StockManagerApp (Frontend): Una aplicación web desarrollada con React que proporciona una interfaz moderna e intuitiva para gestionar el inventario, permitiendo a los usuarios agregar, actualizar, eliminar y consultar productos en tiempo real.
 
