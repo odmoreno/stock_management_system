@@ -6,7 +6,7 @@ export const getProducts = async (req: Request, res: Response) => {
         // findOne se usa cuando hay un  where
         const products = await Product.findAll({
             order: [
-                ['price', 'DESC']
+                ['id', 'DESC']
             ]
             //, attributes: { exclude: ['createdAt', 'updatedAt', 'availability'] }
             //,limit : 2
